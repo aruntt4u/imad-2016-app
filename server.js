@@ -151,9 +151,7 @@ var htmltemplate = ` <html>
         <div class="center">
             <img src="/ui/arun.png" class="img-small" align=right>
         </div>
-        <div>
         ${heading}
-        </div>
         ${summary}
         ${work}
         ${additional}
