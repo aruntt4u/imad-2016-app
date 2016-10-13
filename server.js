@@ -68,8 +68,7 @@ var articleone = {
                     When i get those additional informations, i will definitely upload.
                     That's all for now. thank u.
                 </p>
-            </div>`,
-     scr:` <script type="text/javascript" src="/ui/arun.png">     </script>`        
+            </div>`
 };
 
 var articletwo = {
@@ -134,11 +133,7 @@ var articletwo = {
                 <p>
                     i conduct imad course for students. I am very popular and star figure in the internet.
                 </p>
-            </div>`,
-    scr:` <div>
-            <script type="text/javascript" src="/ui/madi.png">
-        </script>
-        </div>`
+            </div>`
 };
 
 function createtemplate (data) {
@@ -165,7 +160,8 @@ var htmltemplate = ` <html>
         ${summary}
         ${work}
         ${additional}
-        ${scr}
+       <script type="text/javascript" src="/ui/madi.png">
+        </script>
     </body>
 </html>
 `;
