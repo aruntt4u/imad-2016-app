@@ -6,7 +6,7 @@ var app = express();
 app.use(morgan('combined'));
 var articleone = {
     title: 'Arun Resume',
-    image: `<div class="center">
+    img: `<div class="center">
             <img src="/ui/arun.png" class="img-small" align=right>
         </div>`,
     Heading: `<div>
@@ -152,6 +152,7 @@ var htmltemplate = ` <html>
             RESUME
         </h1>
         <font size=4>
+        ${img}
         ${heading}
         ${summary}
         ${work}
