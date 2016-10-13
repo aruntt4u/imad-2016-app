@@ -59,7 +59,7 @@ var articleone = {
                 </p>
                 <hr>
             </div>`,
-    aditional:`<div>
+    additional:`<div>
                 <h2>
                     Additional Information
                 </h2>
