@@ -68,7 +68,8 @@ var articleone = {
                     When i get those additional informations, i will definitely upload.
                     That's all for now. thank u.
                 </p>
-            </div>`
+            </div>`,
+     scr:` <script type="text/javascript" src="/ui/arun.png">     </script>`        
 };
 
 var articletwo = {
@@ -134,7 +135,7 @@ var articletwo = {
                     i conduct imad course for students. I am very popular and star figure in the internet.
                 </p>
             </div>`
-    script:` <script type="text/javascript" src="/ui/madi.png">
+    scr:` <script type="text/javascript" src="/ui/madi.png">
         </script>`
 };
 
@@ -162,7 +163,7 @@ var htmltemplate = ` <html>
         ${summary}
         ${work}
         ${additional}
-        ${script}
+        ${scr}
     </body>
 </html>
 `;
