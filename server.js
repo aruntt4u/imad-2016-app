@@ -6,6 +6,9 @@ var app = express();
 app.use(morgan('combined'));
 var articleone = {
     title: 'Arun Resume',
+    image: `<div class="center">
+            <img src="/ui/arun.png" class="img-small" align=right>
+        </div>`,
     Heading: `<div>
             <p>
             <br>
@@ -132,6 +135,7 @@ var articletwo = {
 
 function createtemplate (data) {
  var title = data.title;
+ var img = data.img;
  var heading = data.heading;
  var summary = data.summary;
  var work = data.work;
@@ -148,9 +152,6 @@ var htmltemplate = ` <html>
             RESUME
         </h1>
         <font size=4>
-        <div class="center">
-            <img src="/ui/arun.png" class="img-small" align=right>
-        </div>
         ${heading}
         ${summary}
         ${work}
