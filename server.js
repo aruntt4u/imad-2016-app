@@ -135,7 +135,7 @@ var articletwo = {
                     Additional Information
                 </h2>
                 <p>
-                    i conduct imad course for students. I am very popular and star figure in the internet.
+                    i conduct imad course for students. I am very popular and star icon on the internet.
                 </p>
             </div>`
 };
