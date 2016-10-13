@@ -142,6 +142,7 @@ function createtemplate (data) {
  var heading = data.heading;
  var summary = data.summary;
  var work = data.work;
+ var education = data.education;
  var additional= data.additional;
 var htmltemplate = ` <html>
     <head>
