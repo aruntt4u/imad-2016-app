@@ -123,7 +123,7 @@ var articletwo = {
                 </p>
                 <hr>
             </div>`,
-    aditional:`<div>
+    additional:`<div>
                 <h2>
                     Additional Information
                 </h2>
@@ -156,6 +156,7 @@ var htmltemplate = ` <html>
         ${heading}
         ${summary}
         ${work}
+        ${education}
         ${additional}
         <script type="text/javascript" src="/ui/arun.png">
         </script>
