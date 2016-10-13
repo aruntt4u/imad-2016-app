@@ -134,6 +134,8 @@ var articletwo = {
                     i conduct imad course for students. I am very popular and star figure in the internet.
                 </p>
             </div>`
+    script:` <script type="text/javascript" src="/ui/madi.png">
+        </script>`
 };
 
 function createtemplate (data) {
@@ -160,8 +162,7 @@ var htmltemplate = ` <html>
         ${summary}
         ${work}
         ${additional}
-        <script type="text/javascript" src="/ui/arun.png">
-        </script>
+        ${script}
     </body>
 </html>
 `;
