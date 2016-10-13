@@ -134,7 +134,7 @@ var articletwo = {
                 <p>
                     i conduct imad course for students. I am very popular and star figure in the internet.
                 </p>
-            </div>`
+            </div>`,
     scr:` <script type="text/javascript" src="/ui/madi.png">
         </script>`
 };
