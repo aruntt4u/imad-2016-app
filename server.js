@@ -19,18 +19,6 @@ var articleone = {
             <br>
             <br>
             Gadag,Karnataka
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
-            <br>
             </p>
             <hr>
         </div>`,
@@ -98,6 +86,10 @@ var articletwo = {
             <br>
             <br>
              india
+             <br>
+            <br>
+            <br>
+            <br>
             </p>
             <hr>
         </div>`,
