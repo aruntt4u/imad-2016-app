@@ -68,7 +68,7 @@ var articleone = {
             </div>`
 };
 
-function createtemplate (data){
+function createtemplate (data) {
  var title = data.title;
  var heading = data.heading;
  var summary = data.summary;
@@ -100,6 +100,7 @@ var htmltemplate = ` <html>
     </body>
 </html>
 `;
+ return htmltemplate;
 }
 
 app.get('/', function (req, res) {
