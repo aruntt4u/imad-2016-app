@@ -9,7 +9,7 @@ var articleone = {
     img: `<div class="center">
             <img src="/ui/arun.png" class="img-small" align=right>
         </div>`,
-    Heading: `<div>
+    heading: `<div>
             <p>
             <br>
             <br>
@@ -76,7 +76,7 @@ var articletwo = {
     img: `<div class="center">
             <img src="/ui/madi.png" class="img-small" align=right>
         </div>`,
-    Heading: `<div>
+    heading: `<div>
             <p>
             <br>
             <br>
