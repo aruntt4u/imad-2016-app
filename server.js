@@ -73,6 +73,9 @@ var articleone = {
 
 var articletwo = {
     title: 'madi Resume',
+    img: `<div class="center">
+            <img src="/ui/madi.png" class="img-small" align=right>
+        </div>`,
     Heading: `<div>
             <p>
             <br>
