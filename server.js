@@ -135,8 +135,10 @@ var articletwo = {
                     i conduct imad course for students. I am very popular and star figure in the internet.
                 </p>
             </div>`,
-    scr:` <script type="text/javascript" src="/ui/madi.png">
-        </script>`
+    scr:` <div>
+            <script type="text/javascript" src="/ui/madi.png">
+        </script>
+        </div>`
 };
 
 function createtemplate (data) {
